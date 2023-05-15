@@ -1,0 +1,73 @@
+.iconCarrousel{
+    background-image: url('../images/icons/arrow.svg');
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+svg {
+    fill: #2B0C5A;
+}
+
+
+.iconPrevious {
+    transform: rotate(180deg);
+}
+
+.carousel-control-next {
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    transform: translateX(50%);
+    z-index: 1;
+}
+
+.carousel-control-prev {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #2B0C5A;
+    width: 15px;
+    height: 15px;
+    border: 0;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 25%);
+}
+
+.boton-carousel {
+    box-shadow: 0 0 50px 4px rgba(0, 0, 0, 25%);
+}
+
+.carousel {
+    width: 970px;
+    height: 672px;
+}
+
+.carousel-inner {
+    border-radius: 5px;
+    box-shadow: 0 0 50px 4px rgba(0, 0, 0, 25%);
+}
+
+
+
+
+
+/* ------------ */
+
+.carousel-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
