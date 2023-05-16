@@ -6,14 +6,16 @@
     grid-area: sidebar;
     box-sizing: border-box;
     margin: 0;
+    align-self: self-start;
     padding: 30px 13px;
-    width: 310px;
+    position: sticky;
+    width: 270px;
     height: 100vh;
     background-color: var(--blanco);
     box-shadow: 0 0 4px rgba(0, 0, 0, 25%);
     top: 0;
     left: 0;
-    position: fixed;
+    
 }
 
 .container-logo {
@@ -27,7 +29,7 @@
 }
 
 .container-items {
-    margin-top: 127px;
+    margin-top: 90px;
 }
 
 .items {
@@ -69,7 +71,7 @@
 
 
 .container-item-individual-darkmode {
-    margin-top: 100px; 
+    margin-top: 70px; 
     display: flex;
     align-items: center;
 }
@@ -83,17 +85,11 @@
 }
 
 .subitem {
-    height: 35px;
-    padding-left: 20px;
+    height: 100%;
+    padding: 0 20px;
     display: flex;
     align-items: center;
-}
-
-.subitem-texto-largo {
-    height: 50px;
-    padding-left: 20px;
-    display: flex;
-    align-items: center;
+    margin: 5px 0;
 }
 
 .fondo {
@@ -109,8 +105,11 @@
 /* Estilos para el boton darkmode */
 /* ------------------------------ */
 
+.contenedor-darkmode {
+    margin: 0 auto;
+}
+
 .switch-darkmode {
-    margin-left: 53px;
     position: relative;
     display: inline-block;
     width: 42px;
@@ -155,6 +154,12 @@ input:checked + .slider-darkmode:before {
     transform: translateX(18px);
 }
 
+
+
+
+
+
+
 /* ------------------------------ */
 /* Footer                         */
 /* ------------------------------ */
@@ -165,8 +170,8 @@ input:checked + .slider-darkmode:before {
 
 
     background-color: #2B0C5A;
-    margin-top: 100vh;
-    margin-left: 310px;
+     
+ 
     
     display: flex;
     justify-content: center;

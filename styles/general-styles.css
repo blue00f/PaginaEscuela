@@ -59,7 +59,10 @@ a { text-decoration: none; }
 
 .grid-container {
     display: grid;
-    grid-template-areas:    'sidebar' 'sidebar'
-                            'sidebar' 'footer';
-    grid-template-rows: 0;
+    grid-template-areas:    'sidebar content'
+                            'sidebar footer'
+                             ;
+    
+    grid-template-columns: 270px;
+    
 }
