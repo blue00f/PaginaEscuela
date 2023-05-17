@@ -2,7 +2,7 @@
 /* Sidebar                        */
 /* ------------------------------ */
 
-.sidebar {
+.sidebar-container {
     grid-area: sidebar;
     box-sizing: border-box;
     margin: 0;
@@ -20,12 +20,6 @@
 
 .container-logo {
     display: flex;
-}
-
-.rectangulo-logo {
-    margin-left: 14px;
-    margin-right: 14px;
-    fill: var(--celeste-claro);
 }
 
 .container-items {
@@ -154,31 +148,18 @@ input:checked + .slider-darkmode:before {
     transform: translateX(18px);
 }
 
-
-
-
-
-
-
 /* ------------------------------ */
 /* Footer                         */
 /* ------------------------------ */
 
- 
 .footer-container {
     grid-area: footer;
-
-
     background-color: #2B0C5A;
-     
- 
-    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: var(--blanco);
-
     background: rgb(43,12,90);
     background: -moz-linear-gradient(45deg, rgba(43,12,90,1) 0%, rgba(26,0,65,1) 100%);
     background: -webkit-linear-gradient(45deg, rgba(43,12,90,1) 0%, rgba(26,0,65,1) 100%);
@@ -197,7 +178,6 @@ input:checked + .slider-darkmode:before {
     font-size: 14px;
     color: var(--gris);
     padding: 8px 0;
-
 }
 
 .footer-menus{
@@ -266,32 +246,33 @@ input:checked + .slider-darkmode:before {
     padding: 20px;
 }
 
-/*MEDIA QUERY*/
+/* -------------------------------------------*/
+/* RESPONSIVE DESIGN ADAPTABLE PARA TELEFONOS */
+/* -------------------------------------------*/
+
 @media (max-width: 768px){
-    
-    .footer-container{
+    .footer-container {
         padding: 3rem; 
         flex-direction: column;
     }
 
-    .footer-content-container{
+    .footer-content-container {
         width: 100%;
         padding: 3rem 0;
         border-bottom: 1px solid #2A2A2A;
         align-items: center;
-    
     }
 
-    .footer-content-container:nth-of-type(1){
+    .footer-content-container:nth-of-type(1) {
         align-items: flex-start;
     }
-    .footer-content-container:nth-of-type(3){
+    .footer-content-container:nth-of-type(3) {
         border-bottom: none;
         padding-left: 20px;
         padding-bottom: 0;
     }
 
-    .footer-menus{
+    .footer-menus {
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -299,22 +280,17 @@ input:checked + .slider-darkmode:before {
         border-bottom: 1px solid #2A2A2A;
     }
 
-    .footer-menus .footer-content-container:nth-of-type(1){
+    .footer-menus .footer-content-container:nth-of-type(1) {
         width: 100%;
         align-items: flex-start;
         border-bottom: none;
     }
-    .footer-menus .footer-content-container:nth-of-type(2){
+    .footer-menus .footer-content-container:nth-of-type(2) {
         width: 45%;
         align-items: flex-start;
         border-bottom: none;
     }
 }
-
-
-/* ------------------------------ */
-/* RESPONSIVE DESIGN ADAPTABLE PARA TELEFONOS */
-/* ------------------------------ */
 
 /* Cuando haces zoom, el sidebar coloca un scroll para ver todas las secciones */
 @media (max-height: 845px){ 

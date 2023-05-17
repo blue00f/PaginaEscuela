@@ -33,7 +33,6 @@ svg {
     z-index: 1;
 }
 
-
 .carousel-indicators [data-bs-target] {
     background-color: #2B0C5A;
     width: 15px;
@@ -79,7 +78,7 @@ svg {
 
 .carousel-inner {
     border-radius: 5px;
-    box-shadow: 0 0 50px 4px rgba(0, 0, 0, 25%);
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 25%);
 }
 
 .alineamiento {
@@ -97,3 +96,8 @@ svg {
   transform: translateY(-50%);
 }
 
+.carousel-item > img {
+    height: 672px;
+    object-fit: fill;
+    filter: brightness(50%);
+}
