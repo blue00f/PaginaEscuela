@@ -1,0 +1,53 @@
+.root
+{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.grid-section
+{
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: 2fr 6fr 2fr;
+}
+
+table{
+    border-collapse: collapse;
+    border: 7px solid #2B0C5A;
+    
+}
+
+.description
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+ 
+table, th, td 
+{
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+    border: 9px solid #b2d8fa;
+}
+
+.tabla
+{
+    
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
