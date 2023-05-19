@@ -7,14 +7,7 @@
 .grid-section
 {
     display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
-    grid-template-rows: 2fr 6fr 2fr;
-}
 
-table{
-    border-collapse: collapse;
-    border: 7px solid #2B0C5A;
-    
 }
 
 .description
@@ -25,14 +18,16 @@ table{
     grid-row-end: 2;
 }
 
- 
-table, th, td 
-{
-    border: 1px solid black;
+
+.tabla{
+    border-collapse: collapse;
+    border: 15px solid #2B0C5A;
+    
 }
 
-th,
-td {
+
+
+th, td {
     padding: 5px;
     text-align: center;
     background-color: #fff;
