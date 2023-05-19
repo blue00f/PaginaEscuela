@@ -60,7 +60,7 @@ svg {
 }
 
 .carousel-caption p {
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .boton-inicio {
@@ -72,7 +72,7 @@ svg {
 }
 
 .carousel {
-    width: 970px;
+    width: 900px;
 
 }
 
@@ -97,4 +97,9 @@ svg {
 
 .alineamiento > p, h5 {
     color: #2B0C5A;
+}
+
+.fondo-blanco {
+    height: 600px;
+    background-color: #fff;
 }

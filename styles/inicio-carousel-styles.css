@@ -73,32 +73,26 @@ svg {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 25px;
-
 }
 
-.boton1{
+.boton1 {
     border-style: none;
-    color: #ffffff;
+    color: #E7F1FA;
     background-color: #2B0C5A;
+    width: 204px;
     padding: 15px 50px 20px 50px;
     border-radius: 12px;
-    margin: 2px;
-    
 }
 
-
-.boton2{
+.boton2 {
     border-style: none;
     color: #2B0C5A;
     background-color: #E7F1FA;
-    font-weight:500;
-    padding: 0px 20px 0px 20px;
-    margin: 2px;
+    width: 204px;
     border-radius: 12px;
-    
 }
-.textoBoton2{
-    padding-left: 25px;
+.textoBoton2 {
+    padding-left: 15px;
     
 }
 .boton-carousel {
@@ -106,7 +100,7 @@ svg {
 }
 
 .carousel {
-    width: 970px;
+    width: 1000px;
     height: 672px;
 }
 
@@ -121,7 +115,7 @@ svg {
 
 .content {
     margin-top: 10vh;
-    margin-bottom: 30vh;
+    margin-bottom: 20vh;
 }
 
 .carousel-buttons {
