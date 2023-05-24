@@ -23,4 +23,10 @@
 .contenedor-img-autoridad > p {
     font-size: 20px;
     line-height: 25px;
+    color: #2B0C5A;
+}
+
+@media (max-width: 768px){
+
+
 }
