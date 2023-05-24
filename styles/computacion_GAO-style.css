@@ -7,41 +7,17 @@
 .grid-section
 {
     display: grid;
-
 }
 
-.description 
+.description
 {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-    border: 5px solid #2B0C5A;
-    margin-bottom:20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: #fff;
-    
-}
-.description p
-{
-    margin-left: 20px;
-    padding-bottom:20px;
-}
-
-.description h3
-{
-    color: #2B0C5A;
-    border-bottom: 5px solid #2B0C5A;
-    width: 12%;
-    margin-left: 20px;
-}
-
-
-.tabla1{
-    border-collapse: collapse;
-    border: 15px solid #2B0C5A;
-    
+    margin-bottom: 40px;
+    padding-left: 94px;
+    padding-right: 94px;
 }
 
 
@@ -51,6 +27,7 @@ th, td {
     text-align: center;
     background-color: #fff;
     border: 9px solid #b2d8fa;
+    
 }
 
 .tabla1
@@ -63,6 +40,10 @@ th, td {
     grid-row-start: 2;
     grid-row-end: 3;
     margin-bottom: 20px;
+    border-collapse: collapse;
+    border: 15px solid #2B0C5A;
+    
+    
 }
 
 .tabla2
@@ -74,6 +55,36 @@ th, td {
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
+    border-collapse: collapse;
+    border: 15px solid #2B0C5A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tabla3
+{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border-collapse: collapse;
+    border: 15px solid #2B0C5A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tabla4
+{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
     border-collapse: collapse;
     border: 15px solid #2B0C5A;
     margin-top: 20px;
