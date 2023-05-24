@@ -1,0 +1,16 @@
+.contenedor-galeria {
+}
+
+.contenedor-fotos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.contenedor-foto {
+    margin: 0 auto;
+}
+    
