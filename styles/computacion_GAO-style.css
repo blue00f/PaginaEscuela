@@ -9,84 +9,98 @@
     display: grid;
 }
 
-.description
+.description 
 {
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-bottom: 40px;
-    padding-left: 94px;
-    padding-right: 94px;
+    grid-column-end: 5;   
+   
+    margin-left: 40px;
+    margin-right: 40px; 
+    height: 100%;
+} 
+
+.description-1, .description-2, .description-3, .description-4
+{
+    background-color: #fff;
+    border: 5px solid #2B0C5A;
+    padding: 40px;
+    margin: 20px;
+    margin-bottom:20px;
+} 
+
+.description-1 h3, .description-2 h3, .description-3 h3, .description-4 h3, .description-5 h3
+{
+    font-weight:bold;
 }
 
+.description-2 summary
+{
+    font-weight:700;
+}
 
+.tablas
+{
+  display: grid;
+  grid-column-start: 1;
+    grid-column-end: 5;
+  place-items: center;
+}
+
+.description-5 h3
+{
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding-top: 20px;
+}
 
 th, td {
     padding: 5px;
     text-align: center;
     background-color: #fff;
-    border: 9px solid #b2d8fa;
-    
+    border: 9px solid #b2d8fa;    
+}
+
+
+.tabla1, .tabla2, .tabla3, .tabla4
+{
+    text-align: center;
+    margin: 0 auto;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-collapse: collapse;
+    border: 15px solid #2B0C5A;
 }
 
 .tabla1
-{
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
+{   
     grid-row-start: 2;
     grid-row-end: 3;
     margin-bottom: 20px;
-    border-collapse: collapse;
-    border: 15px solid #2B0C5A;
     
-    
+   
 }
 
 .tabla2
 {
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    border-collapse: collapse;
-    border: 15px solid #2B0C5A;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .tabla3
 {
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
-    border-collapse: collapse;
-    border: 15px solid #2B0C5A;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .tabla4
 {
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 6;
-    border-collapse: collapse;
-    border: 15px solid #2B0C5A;
     margin-top: 20px;
     margin-bottom: 20px;
 }
