@@ -78,3 +78,21 @@ a { text-decoration: none; }
 .content-container {
     grid-area: content;
 }
+
+
+
+/* Media query para resoluciones laptops
+@media (max-width: 1470px) {
+    .grid-container {
+        grid-template-columns: 0;
+    }
+
+    .sidebar-container {
+        display: none;
+    }
+
+    .content-container {
+        margin: 0 auto;
+    }
+    
+} */
