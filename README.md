@@ -41,11 +41,17 @@ Realizar una segunda entrega de la página con las secciones terminadas.
 
 Informe de la semana 29-05-2023 y 02-06-2023
 
+
 Valenzuela: terminar secciones Ciclo basico, GAO y Computacion
+
 Mamani: terminar responsive para vista de telefono
+
 Roca: terminar responsive para vista de laptop
+
 Rodriguez: reemplazar los textos de ejemplos por textos definitivos
+
 Irigoyen y Alvez: que los botones del sidebar como "Institucion" o "Plan de estudio" puedan acoplar las subsecciones
+
 Araujo: implementar la funcionalidad del modo oscuro
 
 |-----------------------------------------------------------------------------------------------------|
