@@ -81,10 +81,9 @@ a { text-decoration: none; }
 
 
 
-/* Media query para resoluciones laptops
 @media (max-width: 1470px) {
     .grid-container {
-        grid-template-columns: 0;
+        display: block;
     }
 
     .sidebar-container {
@@ -94,5 +93,8 @@ a { text-decoration: none; }
     .content-container {
         margin: 0 auto;
     }
-    
-} */
+
+    .contenedor-titulo {
+        margin-top: 100px;
+    }
+}

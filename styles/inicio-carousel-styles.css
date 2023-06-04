@@ -8,10 +8,11 @@
     background-size: 100% 100%;
 }
 
-svg {
+.boton-inicio > a > svg {
     fill: #2B0C5A;
+    width: 50px;
+    height: 50px;
 }
-
 
 .iconPrevious {
     transform: rotate(180deg);
@@ -23,6 +24,7 @@ svg {
     right: 0;
     transform: translateX(50%);
     z-index: 1;
+    width: 0;
 }
 
 .carousel-control-prev {
@@ -31,6 +33,7 @@ svg {
     left: 0;
     transform: translateX(-50%);
     z-index: 1;
+    width: 0;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -85,8 +88,7 @@ svg {
     color: #E7F1FA;
     background-color: #2B0C5A;
     width: 204px;
-    height: 100%;
-    padding: 21px 15px 21px 15px;
+    padding: 23px 15px 23px 15px;
     border-radius: 12px;
 }
 
@@ -113,8 +115,14 @@ svg {
 }
 
 .carousel {
-    width: 1300px;
-    height: 672px;
+    width: 75vw;
+}
+
+.content {
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .carousel-inner {
@@ -124,11 +132,6 @@ svg {
 
 .alineamiento {
     top: 15%;
-}
-
-.content {
-    margin-top: 10vh;
-    margin-bottom: 20vh;
 }
 
 .carousel-buttons {
@@ -141,4 +144,44 @@ svg {
     height: 672px;
     object-fit: cover;
     filter: brightness(35%);
+}
+
+@media (max-width: 1470px) {
+    .carousel {
+        width: 100vw;
+        height: 450px;
+    }
+
+    .content {
+        margin-top: 18vh;
+        margin-bottom: 15vh;
+        height: 450px;
+    }
+
+    .carousel-item > img {
+        height: 450px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    
+    .carousel-caption p {
+        font-size: 16px;
+    }
+
+    .boton-inicio {
+        font-size: 16px;
+    }
+
+    .boton1, .boton2 {
+        height: 55px;
+        width: 160px;
+    }
+
+    .boton-inicio > a > svg {
+        width: 45px;
+        height: 45px;
+    }
 }
