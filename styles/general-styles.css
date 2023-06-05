@@ -78,3 +78,23 @@ a { text-decoration: none; }
 .content-container {
     grid-area: content;
 }
+
+
+
+@media (max-width: 1470px) {
+    .grid-container {
+        display: block;
+    }
+
+    .sidebar-container {
+        display: none;
+    }
+
+    .content-container {
+        margin: 0 auto;
+    }
+
+    .contenedor-titulo {
+        margin-top: 100px;
+    }
+}
