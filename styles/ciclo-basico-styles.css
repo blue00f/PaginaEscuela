@@ -65,6 +65,11 @@
         grid-row-start: 3;
         grid-row-end: 4;
         margin: 0 auto; 
+        color: #000;
+    }   
+    .mas-info a:hover
+    {             
+        color: #6c38bb;
     }   
 
     .mas-info
@@ -96,13 +101,14 @@
 
     .list-group-item.active
     {
-        background-color: #0d6efd;
+        background-color: #3f0e88;
         border-color: #fff  ;
+        color: #ffffff;
     }
 
     .list-group a:hover
     {
-        background-color: #b2d8fa;
+        background-color:#452477;
         color:black;
     }
 
